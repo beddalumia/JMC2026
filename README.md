@@ -1,4 +1,4 @@
-## Slides for my [talk](https://jmc2026.sciencesconf.org/747128) at les Journées de la Matière Condensée 2026 (Toulouse, France)
+### Slides for my [talk](https://jmc2026.sciencesconf.org/747128) at les Journées de la Matière Condensée 2026 (Toulouse, France)
 
 The abtract can be found [here](./Bellomia_JMC26_abstract.pdf).
 
