@@ -18,8 +18,8 @@ Research assistant at the Technische Universität Wien --- _Institut für Festk�
 
 <br />
     
-<img src=/images/2x2_plaquette.svg width=150 class="float-left ml-7 mt-9 mb-7">
-<img src=/images/SISSAlogo_dark.svg width=300 class="float-left ml-30 mt-9 mb-7">
+<img src=/images/plaquette_cover.svg width=140 class="float-left ml-7 mt-9 mb-7">
+<img src=/images/SISSAlogo_dark.svg width=300 class="float-left ml-31 mt-9 mb-7">
 <img src=/images/TUWdark.svg width=150 class="float-right mr-0 ml-7 mt-8">
 
 :: note ::  
