@@ -18,7 +18,8 @@ Research assistant at the Technische Universität Wien --- _Institut für Festk�
 
 <br />
     
-<img src=/images/SISSAlogo_dark.svg width=300 class="float-left ml-7 mt-9 mb-7">
+<img src=/images/2x2_plaquette.svg width=150 class="float-left ml-7 mt-9 mb-7">
+<img src=/images/SISSAlogo_dark.svg width=300 class="float-left ml-30 mt-9 mb-7">
 <img src=/images/TUWdark.svg width=150 class="float-right mr-0 ml-7 mt-8">
 
 :: note ::  
@@ -709,9 +710,9 @@ transition: slide-up
 
 <v-clicks>
 
-- We verify that spin-singlet entanglement is **closely connected to the pseudogap** (thermal death exactly at $T^*$ in DΓA, overdoping death)
+- We verify that spin-singlet entanglement is **closely connected to the pseudogap** (thermal death exactly at $T^*$ in DΓA)
 
-- We find that it is **strictly confined to nearest neighbors** (Heisenberg-like)
+- Both DΓA and experiment find it **strictly confined to nearest neighbors** (Heisenberg-like)
 
 </v-clicks>
 
@@ -779,7 +780,7 @@ transition: slide-up
 
 <div class="neversink-sky-light-scheme ns-c-bind-scheme"> 
 
-# &nbsp; What about real materials?
+# &nbsp; Backup: what about real materials?
 
 </div>
 
