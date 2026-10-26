@@ -3,27 +3,26 @@ colorSchema: light
 color: indigo
 layout: cover
 routerMode: hash
-title: SCES 2026
+title: JMC 2026
 theme: neversink
-neversink_slug: "SCES 2026"
+neversink_slug: "JMC 2026"
 transition: slide-up
 ---
 
-### `Symmetry-resolved` two-site entanglement for Mott and pseudogap physics in the 2D Hubbard model
+### `Symmetry-resolved` two-site entanglement as a key to Mott and pseudogap physics in plaquette CDMFT
 
 **GABRIELE BELLOMIA**    
 Research assistant at the Technische Universität Wien --- _Institut für Festkörperphysik_     
 <kbd> >> with C. Mejuto-Zaera, M. Capone, A. Amaricci (CDMFT) </kbd>    
-<kbd> >> with F. Bippus, T. Chalopin, [...], A. Georges, A. Kauch, I. Bloch, K. Held (cold atoms and DΓA) </kbd>
+<kbd> >> with F. Bippus, T. Chalopin, [...], A. Georges, A. Kauch, I. Bloch, K. Held (DΓA and cold atoms) </kbd>
 
 <br />
     
-<img src=/images/SCES2026_logo.svg width=300 class="float-left ml-7 mt-9 mb-5">
 <img src=/images/SISSAlogo_dark.svg width=300 class="float-left ml-7 mt-9 mb-7">
 <img src=/images/TUWdark.svg width=150 class="float-right mr-0 ml-7 mt-8">
 
 :: note ::  
-**SCES 2026** -- _International Conference on Strongly Correlated Electron Systems_ -- [Toyama, September 30, 2026]
+**JMC 2026** -- _Journées de la Matière Condensée_ -- MMQ04 -- [Toulouse, October 27, 2026]
 
 ---
 layout: default
@@ -37,7 +36,7 @@ slide_info: false
 
 <div class="col-span-3">
 
-The SCES **bet** on the third quantum revolution:
+Our community's **bet** on the third quantum revolution:
 
 <v-clicks>
 
@@ -50,14 +49,14 @@ The SCES **bet** on the third quantum revolution:
 
 &nbsp;&nbsp;&nbsp;&nbsp; -> must **quantify** them, with **entanglement monotones**
 
-&nbsp;&nbsp;&nbsp;&nbsp; -> in the simplest building block (two sites $i, j$) the spin    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; structure factor $\langle S_i\!\cdot\!S_j\rangle$ is sufficient for spin models     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <kbd> >> first talk of the session by A. Scheie! </kbd>
+&nbsp;&nbsp;&nbsp;&nbsp; -> the special resources are **electron correlations**,    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; which are hard to treat in quantum information theory     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <kbd> >> next talk by E. Zavatti! </kbd>
 </v-clicks>
 
 <v-click>
   
-**What changes when electrons can move?**
+**What can we learn instead from spatial entanglement?**
 
 </v-click>
 
@@ -483,7 +482,7 @@ transition: none
 </div>
 
 <div class="grid w-full h-fit grid-cols-3 grid-rows-1 mt-7 mb-auto">
-<div class="grid-item grid-col-span-2 pt-10"><img src="/images/half_sym_neg.svg" width=525/></div>
+<div class="grid-item grid-col-span-2 pt-10 mb-15"><img src="/images/half_sym_neg.svg" width=525/></div>
 <div class="grid-item grid-col-span-1 text-left">
 
 <img src="/images/2x2_plaquette.svg" class="w-45 ml-5 mt-0.5 mb-2" />
@@ -496,9 +495,7 @@ transition: none
 
 - ED-type diagonalization
 
-- Discrete (small!) bath
-
-- We focus only on $\langle i j \rangle$  **(today)**
+- $\rho_{\langle ij \rangle}$ by tracing from the impurity ground state
 
 - We disallow AFM ordering
 
@@ -541,8 +538,15 @@ ${\color{#FB2D45}\mathcal{N}^\mathrm{hd}}$ vanishes at $U\gg t$
 
 <v-click>
 
-&nbsp; &nbsp; &nbsp; &nbsp; --> _Hubbard dimer at T = 0_
-<img src="/images/2-site.svg" class="h-44.5 ml-3 mt-0 mb-0" />
+&nbsp; &nbsp; &nbsp; &nbsp; --> _Strong-coupling hierarchy_
+
+$$
+\begin{aligned}
+{\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}} &\sim \mathcal{O}(1) & &\Delta n = 0 \\
+{\color{#F59D13}\mathcal{N}^{\mathrm{F}t}} &\sim \mathcal{O}(t/U) & &\Delta n = 1 \\
+{\color{#FB2D45}\mathcal{N}^\mathrm{hd}} &\sim \mathcal{O}(t^2\!/U^2) & &\Delta n = 2
+\end{aligned}
+$$
 
 </v-click>
 
@@ -636,19 +640,17 @@ transition: slide-up
 </div>
 
 <div class="grid w-full h-fit grid-cols-3 grid-rows-1 mt-7 mb-auto">
-<div class="grid-item grid-col-span-2 pt-10 mb-16"><img src="/images/doped_sym_inset.svg" width=525/></div>
+<div class="grid-item grid-col-span-2 pt-10 mb-18"><img src="/images/doped_sym_inset.svg" width=525/></div>
 <div class="grid-item grid-col-span-1 text-left">
 
   - Remarkably, ${\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}_{\langle ij \rangle}}$ vanishes exactly in the Fermi liquid  
 
 <v-clicks> 
 
-  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Small sector so a PPT is   
-  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; faithful: true separability!
-  <img src="/images/cdmft_ssr_transpose.svg" class="w-50 ml-10 mt-0 mb-6.2" />
-
   - $\mathcal{N}^\mathrm{hd}_{\langle ij \rangle}$ is
     instead finite (but small)    
+
+  - ${\color{#F59D13}\mathcal{N}^{\mathrm{F}t}_{\langle ij \rangle}}$ stays large ($\sim\!0.3$ bit): the Fermi-liquid entanglement is all hopping
 
 </v-clicks>
 
@@ -677,9 +679,9 @@ transition: none
 
 We have been able to compute ${\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}_{ij}}$ from:
 
-- Immanuel Bloch's ultra-cold atom gas simulation of the $2D$ Hubbard model!
-
 - Ladder version of the Dynamical Vertex Approximation (spin lambda correction)
+
+- Ultra-cold atom gas simulation of the $2D$ Hubbard model (Bloch group)
 
 </v-clicks>
 
@@ -698,7 +700,7 @@ title: RVB cartoon
 color: black
 image: /images/nonlocal_mode_corr.svg
 slide_info: false
-transition: slide-left
+transition: slide-up
 ---
 
 ## ==**And the "true" pseudogap?**==
@@ -707,7 +709,7 @@ transition: slide-left
 
 <v-clicks>
 
-- We verify that spin-singlet entanglement is **closely connected to the pseudogap** (thermal death at $T^*$, overdoping death)
+- We verify that spin-singlet entanglement is **closely connected to the pseudogap** (thermal death exactly at $T^*$ in DΓA, overdoping death)
 
 - We find that it is **strictly confined to nearest neighbors** (Heisenberg-like)
 
@@ -721,13 +723,63 @@ transition: slide-left
 
 ---
 layout: default
-title: Back to solids
+title: Take-home
+---
+
+<div class="neversink-sky-light-scheme ns-c-bind-scheme"> 
+
+# &nbsp; What to take home?
+
+</div>
+
+<br />
+
+- Symmetry resolution splits the two-site entanglement of the Hubbard model into ${\color{#F59D13}\text{hopping}}$, ${\color{#FB2D45}\text{holon-doublon}}$ and ${\color{#3D81F6}\text{spin-singlet}}$ contributions. **The last two are operationally accessible.**
+- **Standard Fermi liquids** --> the **accessible contributions are negligible**, hopping dominates.
+- **Mott insulator and pseudogap in CDMFT/ED**: nearest-neighbor **singlet entanglement dominates.**   
+ Holon-doublon entanglement peaks at the MIT --> **possible connection to holon-doublon binding?**
+- **Spin entanglement dies with overdoping** at the transition to the Fermi liquid ($T=0$, CDMFT/ED)    
+ **and heating** above  $T^*$ (ladder dynamical vertex approximation and quantum-gas simulator).
+
+<div class="flex justify-around mt-10">
+  <div class="text-center text-sm"><QRCode value="https://doi.org/10.1103/PhysRevB.109.115104" :size="100" render-as='svg'/>
+  MIT in CDMFT</div>
+  <div class="text-center text-sm"><img src="/images/wip.svg" class="w-26"/> Doped CDMFT</div>
+  <div class="text-center text-sm"><QRCode value="https://arxiv.org/abs/2605.31240" :size="100" render-as='svg'/> Pseudogap</div>
+</div>
+
+<!--
+Optional bridge to the experiment: Sordi et al. (Sci. Rep. 2, 547 (2012)) identify T* with the Widom line emanating from this very transition, so the death across the jump at T = 0 and the death at T* in the experiment may be two faces of the same picture.
+
+**But what about Jan von Delft's recent QCP at T = 0, from DCA/NRG?**
+-->
+
+---
+layout: image
+title: Thank you for your attention!
+image: /images/ThankYou.svg
+slide_info: false
+---
+
+
+---
+layout: section
+color: indigo
+title: Backup
+slide_info: false
+---
+
+# Backup slides
+
+---
+layout: default
+title: What about real materials?
 transition: slide-up
 ---
 
 <div class="neversink-sky-light-scheme ns-c-bind-scheme"> 
 
-# &nbsp; Back to solids: can neutron scattering measure this?
+# &nbsp; What about real materials?
 
 </div>
 
@@ -735,7 +787,7 @@ transition: slide-up
 
 <v-clicks>
 
-- For fully localized spins, $\langle S_i\!\cdot\!S_j\rangle$ gives the concurrence (this session's **opening talk by A. Scheie**):   
+- For fully localized spins, $\langle S_i\!\cdot\!S_j\rangle$ gives the concurrence (from **neutron scattering**):   
   $$
   C_{ij} = \max\{0,\, -2\langle S_i\!\cdot\!S_j\rangle - \tfrac{1}{2}\} \equiv 2^{\,\color{#3D81F6}\mathcal{N}^{\,\uparrow\downarrow}_{ij}} - 1
   $$
@@ -767,77 +819,6 @@ transition: slide-up
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--> to be fair, also in cold-atom experiments...
 
 </v-click>
-
-<!--
-
-KARSTEN THINKS IT IS TOO DANGEROUS TO DISCLOSE THIS
-
-- With itinerant electrons the singlet entanglement lives where **both sites are singly occupied**; charge fluctuations only *dilute* it:   
-  &nbsp;&nbsp;&nbsp;&nbsp; $\langle S_i\!\cdot\!S_j\rangle = P_{11}\,\langle S_i\!\cdot\!S_j\rangle_{11}$, &nbsp;&nbsp; $P_{11} \le \tfrac{4}{3}\langle S_i^2\rangle$
-- Lower bound on the **accessible singlet negativity**, from the energy-integrated spin structure factor alone:
-
-</v-clicks>
-
-<v-click>
-
-$$ 2^{\mathcal{N}^{\uparrow\downarrow}_{ij}} - 1 \;\ge\; \max\Big\{0,\; -2\langle S_i\!\cdot\!S_j\rangle - \tfrac{2}{3}\langle S_i^2\rangle\Big\} $$
-
-</v-click>
-
-<v-clicks>
-
-- $\langle S_i^2\rangle = 3/4$ gives back the spin-model concurrence; the measured **local moment ($\langle S_i^2\rangle$) tightens** it &nbsp;&nbsp; -> yes/no: $\langle S_i\!\cdot\!S_j\rangle / \langle S_i^2\rangle \lt -1/3$
--->
-
----
-layout: default
-title: Take-home
----
-
-<div class="neversink-sky-light-scheme ns-c-bind-scheme"> 
-
-# &nbsp; What to take home?
-
-</div>
-
-<br />
-
-- Symmetry resolution splits the two-site entanglement of the Hubbard model into ${\color{#F59D13}\text{hopping}}$, ${\color{#FB2D45}\text{holon-doublon}}$ and ${\color{#3D81F6}\text{spin-singlet}}$ contributions. **The last two are operationally accessible.**
-- **Fermi liquid** at $U\ll t$ --> the **accessible contributions are negligible**, hopping dominates.
-- **Mott insulator and pseudogap in CDMFT/ED**: nearest-neighbor **singlet entanglement dominates.**   
- Holon-doublon entanglement peaks at the MIT --> **possible connection to holon-doublon binding?**
-- **Spin entanglement dies with overdoping** at the transition to the Fermi liquid ($T=0$, CDMFT/ED)    
- **and heating** above  $T^*$ (quantum-gas simulator and ladder dynamical vertex approximation).
-
-<div class="flex justify-around mt-10">
-  <div class="text-center text-sm"><QRCode value="https://doi.org/10.1103/PhysRevB.109.115104" :size="100" render-as='svg'/>
-  MIT in CDMFT</div>
-  <div class="text-center text-sm"><img src="/images/wip.svg" class="w-26"/> Doped CDMFT</div>
-  <div class="text-center text-sm"><QRCode value="https://arxiv.org/abs/2605.31240" :size="100" render-as='svg'/> Pseudogap</div>
-</div>
-
-<!--
-Optional bridge to the experiment: Sordi et al. (Sci. Rep. 2, 547 (2012)) identify T* with the Widom line emanating from this very transition, so the death across the jump at T = 0 and the death at T* in the experiment may be two faces of the same picture.
-
-**But what about Jan von Delft's recent QCP at T = 0, from DCA/NRG?**
--->
-
----
-layout: image
-title: Thank you for your attention!
-image: /images/ThankYou.svg
-slide_info: false
----
-
-
----
-layout: section
-color: indigo
-title: Backup
-slide_info: false
----
-
-# Backup slides
 
 ---
 layout: full
@@ -908,6 +889,46 @@ title: ASCI
 $2\times4\,$ ladder via Adaptive Sampling Configuration Interaction
 
 </div>
+</div>
+
+---
+layout: default
+title: Why the negativity
+---
+
+
+<div class="neversink-orange-light-scheme ns-c-bind-scheme"> 
+
+
+# &nbsp; Backup: why the negativity? Is zero really zero?
+</div>
+
+<div class="grid w-full h-fit grid-cols-4 grid-rows-1 mt-10 mb-auto">
+
+  <div class="grid-item grid-col-span-2 h-91"><img src="/images/cdmft_ssr_transpose.svg" class="h-full w-auto ml-3.5" />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <kbd> Reshuffled to highlight PT symmetries  </kbd></div>
+  
+  <div class="grid-item grid-col-span-2 ml-7"> 
+
+  <div style="height: 1.7rem"></div>
+
+  - The superselected blocks are **two-qubit** states (no fermionic phase):    
+    ${\color{#3D81F6}\{\uparrow,\downarrow\}\!\otimes\!\{\uparrow,\downarrow\}}$ and ${\color{#FB2D45}\{\bullet,\uparrow\!\downarrow\}\!\otimes\!\{\bullet,\uparrow\!\downarrow\}}$
+
+  - For two qubits PPT is **faithful**<sup>1,2</sup>: ${\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}_{ij}} = 0$ means **true separability**
+
+  - For two qubits the log-negativity is the **exact entanglement cost** under PPT operations<sup>3,4</sup>: it counts ebits
+
+  <div style="height: 1.5rem"></div>
+
+  <kbd> <sup>1</sup> Peres, PRL **77**, 1413 (1996) </kbd>    
+  <kbd> <sup>2</sup> Horodecki et al., Phys. Lett. A **223**, 1 (1996) </kbd>    
+  <kbd> <sup>3</sup> Audenaert, Plenio, Eisert, PRL **90**, 027901 (2003) </kbd>    
+  <kbd> <sup>4</sup> Ishizaka, PRA **69**, 020301 (2004) </kbd>
+
+  </div>
+
 </div>
 
 ---
