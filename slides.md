@@ -13,17 +13,17 @@ transition: slide-up
 
 **GABRIELE BELLOMIA**    
 Research assistant at the Technische Universität Wien --- _Institut für Festkörperphysik_     
-<kbd> >> with C. Mejuto-Zaera, M. Capone, A. Amaricci (CDMFT) </kbd>    
-<kbd> >> with F. Bippus, T. Chalopin, [...], A. Georges, A. Kauch, I. Bloch, K. Held (DΓA and cold atoms) </kbd>
+<kbd> >> with C. Mejuto-Zaera, M. Capone, A. Amaricci (CDMFT, main content of the talk) </kbd>    
+<kbd> >> with F. Bippus, T. Chalopin, [...], I. Bloch, K. Held (DΓA and cold atom experiment) </kbd>
 
 <br />
     
-<img src=/images/plaquette_cover.svg width=140 class="float-left ml-7 mt-9 mb-7">
-<img src=/images/SISSAlogo_dark.svg width=300 class="float-left ml-31 mt-9 mb-7">
+<img src=/images/plaquette_cover.svg width=150 class="float-left ml-5 mt-9 mb-7">
+<img src=/images/SISSAlogo_dark.svg width=300 class="float-left ml-29 mt-9 mb-7">
 <img src=/images/TUWdark.svg width=150 class="float-right mr-0 ml-7 mt-8">
 
 :: note ::  
-**JMC 2026** -- _Journées de la Matière Condensée_ -- MMQ04 -- [Toulouse, October 27, 2026]
+**JMC 2026** -- _Journées de la Matière Condensée_  [MMQ04] -- Toulouse, October 27, 2026
 
 ---
 layout: default
@@ -48,11 +48,11 @@ Our community's **bet** on the third quantum revolution:
 
 <v-clicks>
 
-&nbsp;&nbsp;&nbsp;&nbsp; -> must **quantify** them, with **entanglement monotones**
+&nbsp;&nbsp;&nbsp;&nbsp; -> must **quantify** them, with **appropriate monotones**
 
-&nbsp;&nbsp;&nbsp;&nbsp; -> the special resources are **electron correlations**,    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; which are hard to treat in quantum information theory     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <kbd> >> next talk by E. Zavatti! </kbd>
+&nbsp;&nbsp;&nbsp;&nbsp; -> the special resources for us are **electron correlations**,    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; which are hard to tame in quantum information theory     
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; **<kbd> >> next talk by Edoardo Zavatti, for some amazing progress!</kbd>**
 </v-clicks>
 
 <v-click>
@@ -63,7 +63,7 @@ Our community's **bet** on the third quantum revolution:
 
 <v-click>
 
-Orbital two-site entanglement arises also from **tunneling**: 
+Two-site entanglement arises also from **tunneling**: 
 
 </v-click>
 
@@ -72,6 +72,8 @@ Orbital two-site entanglement arises also from **tunneling**:
 - it can be large in **noninteracting** systems
 
 - no obvious link to inter-particle correlations
+
+- but easy to compute or measure in experiments!
 
 </v-clicks>
 
@@ -105,19 +107,18 @@ title: SSR I
   - Even stronger (physical/formal) arguments for the local P-SSR:   
     -> It is needed by the no-signaling theorem<sup>3</sup>    
     -> It is required for mathematical consistency<sup>4</sup>    
-    -> It ensures robustness along _typical_ quantum protocols<sup>5</sup>  
+    -> It ensures a thermal death<sup>5</sup> (high-$T$ states should not be complex)<sup>6</sup>  
 
   </v-clicks>
-
-
-<hr>    
+   
 
 
 <kbd v-click="1"> <sup>1</sup> Wick _et al._, *The Intrinsic Parity of Elementary Particles*, Physical Review **88**, 101 (1952) </kbd>  
 <kbd v-click="2"> <sup>2</sup> Ding _et al._, _Physical entanglement between localized orbitals_, Quantum Sci. and Tech. **9**, 015005 (2023) </kbd>  
 <kbd v-click="3"> <sup>3</sup> Friis, _Reasonable fermionic quantum information theories require relativity_, New J. Phys. **18**, 033014 (2016) </kbd>  
 <kbd v-click="3"> <sup>4</sup> Szalay _et al._, _Fermionic systems for quantum information people_, J. Phys. A: Math. Theor. **54**, 393001 (2021) </kbd>  
-<kbd v-click="3"> <sup>5</sup> Parez _et al._, _The Fate of Entanglement_, SciPost Phys. 20, 002 (2026) </kbd>
+<kbd v-click="3"> <sup>5</sup> Bellomia _et al._, _Impact of superselection rules on fermionic thermal entanglement_, in preparation </kbd>    
+<kbd v-click="3"> <sup>6</sup> Bakshi _et al._, _High-temperature Gibbs states are unentangled and efficiently preparable_, arXiv:2403.16850  </kbd>
 
 ---
 layout: default
@@ -316,7 +317,7 @@ title: Fermionic Negativity
 <br />
 
 &nbsp; &nbsp; &nbsp;
-To account for ==$\mathrm{fermionic}$== anticommutation rules the partial transpose is best written as
+To account for the ==$\mathrm{fermionic}$== nature of the state the partial transpose is best written as
 <br />
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
@@ -386,7 +387,7 @@ transition: slide-up
 
   <br />
 
-  **Important notes:**
+  **Note that**
   
   <v-clicks>
 
@@ -486,7 +487,7 @@ transition: none
 <div class="grid-item grid-col-span-2 pt-10 mb-15"><img src="/images/half_sym_neg.svg" width=525/></div>
 <div class="grid-item grid-col-span-1 text-left">
 
-<img src="/images/2x2_plaquette.svg" class="w-45 ml-5 mt-0.5 mb-2" />
+<img src="/images/2x2_plaquette.svg" class="w-45 ml-5 mt-0.5 mb-7" />
 
 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <kbd> Our CDMFT/ED parametrization </kbd> -->
 
@@ -537,17 +538,24 @@ transition: slide-left
 ${\color{#FB2D45}\mathcal{N}^\mathrm{hd}}$ vanishes at $U\gg t$
 </v-clicks>
 
+
 <v-click>
 
-&nbsp; &nbsp; &nbsp; &nbsp; --> _Strong-coupling hierarchy_
+&nbsp; &nbsp; &nbsp; -> _Strong-coupling hierarchy_
 
 $$
 \begin{aligned}
-{\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}} &\sim \mathcal{O}(1) & &\Delta n = 0 \\
-{\color{#F59D13}\mathcal{N}^{\mathrm{F}t}} &\sim \mathcal{O}(t/U) & &\Delta n = 1 \\
-{\color{#FB2D45}\mathcal{N}^\mathrm{hd}} &\sim \mathcal{O}(t^2\!/U^2) & &\Delta n = 2
+{\color{#3D81F6}\,\,\,\mathcal{N}^{\uparrow\downarrow}} &\sim \mathcal{O}(1) & &\Delta n = 0 \\
+{\color{#F59D13}\,\,\,\mathcal{N}^{\mathrm{F}t}} &\sim \mathcal{O}(t/U) & &\Delta n = 1 \\
+{\color{#FB2D45}\,\,\,\mathcal{N}^\mathrm{hd}} &\sim \mathcal{O}(t^2\!/U^2) & &\Delta n = 2
 \end{aligned}
 $$
+
+</v-click>
+
+<v-click>
+
+- The full $\mathcal{N}^\mathrm{F}_{\langle ij \rangle}$ mixes all features
 
 </v-click>
 
@@ -644,14 +652,25 @@ transition: slide-up
 <div class="grid-item grid-col-span-2 pt-10 mb-18"><img src="/images/doped_sym_inset.svg" width=525/></div>
 <div class="grid-item grid-col-span-1 text-left">
 
+<br>
+
   - Remarkably, ${\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}_{\langle ij \rangle}}$ vanishes exactly in the Fermi liquid  
+
+    --> spin singlets are killed by    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; overdoping the Mott phase
 
 <v-clicks> 
 
-  - $\mathcal{N}^\mathrm{hd}_{\langle ij \rangle}$ is
+  - ${\color{#FB2D45}\mathcal{N}^\mathrm{hd}_{\langle ij \rangle}}$ is
     instead finite (but small)    
 
-  - ${\color{#F59D13}\mathcal{N}^{\mathrm{F}t}_{\langle ij \rangle}}$ stays large ($\sim\!0.3$ bit): the Fermi-liquid entanglement is all hopping
+    --> holon-doublon pairs barely    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; survive the doping transition
+
+  - ${\color{#F59D13}\mathcal{N}^{\mathrm{F}t}_{\langle ij \rangle}}$ stays large ($\sim\!0.3$ bit)    
+
+    --> overdoped entanglement is    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dominated by the hoppings
 
 </v-clicks>
 
@@ -682,7 +701,7 @@ We have been able to compute ${\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}_{
 
 - Ladder version of the Dynamical Vertex Approximation (spin lambda correction)
 
-- Ultra-cold atom gas simulation of the $2D$ Hubbard model (Bloch group)
+- Ultracold atom gas simulation of the two-dimensional Hubbard model (Bloch group)
 
 </v-clicks>
 
@@ -710,9 +729,10 @@ transition: slide-up
 
 <v-clicks>
 
-- We verify that spin-singlet entanglement is **closely connected to the pseudogap** (thermal death exactly at $T^*$ in DΓA)
+- We verify that spin-singlet entanglement is **closely connected to the pseudogap** (thermal death exactly at $T^*$, in DΓA...)
 
-- Both DΓA and experiment find it **strictly confined to nearest neighbors** (Heisenberg-like)
+- Both DΓA and the cold atom experiment find it **confined to nearest neighbors**   
+  -> like in Heisenberg-type magnets
 
 </v-clicks>
 
@@ -788,12 +808,12 @@ transition: slide-up
 
 <v-clicks>
 
-- For fully localized spins, $\langle S_i\!\cdot\!S_j\rangle$ gives the concurrence (from **neutron scattering**):   
+- For fully localized spins, $\langle S_i\!\cdot\!S_j\rangle$ (from **neutron scattering**) gives the concurrence:   
   $$
   C_{ij} = \max\{0,\, -2\langle S_i\!\cdot\!S_j\rangle - \tfrac{1}{2}\} \equiv 2^{\,\color{#3D81F6}\mathcal{N}^{\,\uparrow\downarrow}_{ij}} - 1
   $$
 
-- **Out of the Heisenberg limit**, we can define spin entanglement by symmetry resolution, but we need the weight of the $\Delta n = 0$ sector --> **need to measure the relevant diagonal elements**:
+- **Out of the Heisenberg limit**, we can define the spin entanglement by symmetry resolution, but we need the weight of the $\Delta n = 0$ sector --> **need to measure the relevant diagonal elements**:
   $$
   \rho_{ij}[4,4] = \langle\downarrow\downarrow\mid\!\rho_{ij}\!\mid\downarrow\downarrow\rangle= \left\langle(\hat n_{i,\downarrow} - \hat n_{i\uparrow}\hat n_{i\downarrow})\left(\hat n_{j,\downarrow} -  \hat n_{j\uparrow} \hat n_{j\downarrow}\right)\right\rangle
   $$
