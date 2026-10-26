@@ -2,7 +2,7 @@
 
 The abstract can be found [here](./Bellomia_JMC26_abstract.pdf).
 
-You can view the slides hosted at [netlify](nolink_for_now), or...
+You can view the slides hosted at [netlify](https://jmc2026bellomia.netlify.app/), or...
 
 To start the slide show locally:
 
