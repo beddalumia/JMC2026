@@ -342,7 +342,7 @@ and $\small \mathrm{P}(|n_1, n_2, \dots \rangle) = \biggl(\displaystyle\sum_i n_
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
 --> We can measure the entanglement with the so-called **fermionic negativity**
 $$
-\mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\!\left[\sum_{\{\varepsilon^{T_{_\mathrm{B}}}\}}\Bigl(\varepsilon^{T_\mathrm{B}}\Bigr)\right], \quad \left\{\varepsilon^{T_\mathrm{B}}\right\} = \mathrm{SVD}(\rho^{T_\mathrm{B}})
+\mathcal{N}^\mathrm{F}_\mathrm{AB} = \log_2 \!\!\left[1 + \sum_{\{\varepsilon^{T_{_\mathrm{B}}}\}}\Bigl(\varepsilon^{T_\mathrm{B}}\Bigr) - \mathrm{Tr}\bigl(\rho^{T_\mathrm{B}}\bigr)\right], \quad \left\{\varepsilon^{T_\mathrm{B}}\right\} = \mathrm{SVD}(\rho^{T_\mathrm{B}})
 $$
 
 
@@ -430,8 +430,8 @@ transition: slide-up
   <div class="grid-item grid-col-span-2 ml-0"> 
 
   $$
-  \small
-  \mathcal{N}^\mathrm{F}_{ij} = \log_2 \!\!\left[\sum_{\{\varepsilon^{T_{_j}}\}}\Bigl(\varepsilon^{T_j}\Bigr)\right], \quad \left\{\varepsilon^{T_j}\right\} = \mathrm{SVD}(\rho^{T_j})
+  \scriptsize
+  \mathcal{N}^\mathrm{F}_{ij} = \log_2 \!\!\left[1 + \sum_{\{\varepsilon^{T_{_j}}\}}\Bigl(\varepsilon^{T_j}\Bigr) - \mathrm{Tr}\bigl(\rho^{T_j}\bigr)\right],\; \left\{\varepsilon^{T_j}\right\} = \mathrm{SVD}(\rho^{T_j})
   $$
 
   - The local P-SSR (which **deletes** the ${\color{#F59D13}\Delta n=1}$ elements), recovers a block-diagonal form! 
