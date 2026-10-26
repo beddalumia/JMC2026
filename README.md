@@ -1,7 +1,6 @@
-# Slides for my [talk](https://smartconf.jp/content/sces2026/pg_search?q[0][type]=kw&q[0][term]=Bellomia) at SCES 2026 (Toyama, Japan)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/832e6f1a-3428-4772-afe9-0980320aed55/deploy-status)](https://app.netlify.com/projects/sces2026/deploys)
+## Slides for my [talk](https://jmc2026.sciencesconf.org/747128) at les Journées de la Matière Condensée 2026 (Toulouse, France)
 
-The abtract can be found [here](./Abstract_SCES2026.pdf).
+The abtract can be found [here](./Bellomia_JMC26_abstract.pdf).
 
 You can view the slides hosted at [netlify](nolink_for_now), or...
 
