@@ -765,7 +765,7 @@ title: Take-home
 <div class="flex justify-around mt-10">
   <div class="text-center text-sm"><QRCode value="https://doi.org/10.1103/PhysRevB.109.115104" :size="100" render-as='svg'/>
   MIT in CDMFT</div>
-  <div class="text-center text-sm"><img src="/images/wip.svg" class="w-26"/> Doped CDMFT</div>
+  <div class="text-center text-sm"><QRCode value="https://arxiv.org/abs/2610.34470" :size="100" render-as='svg'/> Doped CDMFT</div>
   <div class="text-center text-sm"><QRCode value="https://arxiv.org/abs/2605.31240" :size="100" render-as='svg'/> Pseudogap</div>
 </div>
 
