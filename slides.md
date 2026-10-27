@@ -445,12 +445,12 @@ transition: slide-up
   the $\mathrm{SVD}$ to these blocks
 
   &nbsp;&nbsp;&nbsp;&nbsp;
-  -> We would have $\mathcal{N}_{\tiny\text{P-SSR}} = {\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}_{ij}} \overset{\star}{+} {\color{#FB2D45}\mathcal{N}^\mathrm{hd}_{ij}}$     
+  -> We would have $\mathcal{N}^{\tiny\text{P-SSR}}_{ij} = {\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}_{ij}} \overset{\star}{+} {\color{#FB2D45}\mathcal{N}^\mathrm{hd}_{ij}}$     
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   $\tiny^\star\text{the composition rule for negativities involves a logarithm}$ 
 
   - Our way to define ${\color{#F59D13}\mathcal{N}^{\mathrm{F}t}_{ij}}$ is just as     
-  ${\color{#F59D13}\mathcal{N}^{\mathrm{F}t}_{ij}} \equiv \mathcal{N}_\mathrm{AB}^\mathrm{F} \overset{\star}{-} \mathcal{N}_{\tiny\text{P-SSR}} = \mathcal{N}_\mathrm{AB}^\mathrm{F} \overset{\star}{-} {\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}_{ij}} \overset{\star}{-} {\color{#FB2D45}\mathcal{N}^\mathrm{hd}_{ij}}$
+  ${\color{#F59D13}\mathcal{N}^{\mathrm{F}t}_{ij}} \equiv \mathcal{N}^\mathrm{F}_{ij} \overset{\star}{-} \mathcal{N}^{\tiny\text{P-SSR}}_{ij} = \mathcal{N}^\mathrm{F}_{ij} \overset{\star}{-} {\color{#3D81F6}\mathcal{N}^{\uparrow\downarrow}_{ij}} \overset{\star}{-} {\color{#FB2D45}\mathcal{N}^\mathrm{hd}_{ij}}$
 
   <!-- &nbsp;&nbsp;&nbsp;&nbsp;
   -> Easy to do with $\mathcal{N}^\mathrm{F}_\mathrm{AB}$ as a measure of $E_\mathrm{AB}$ -->
